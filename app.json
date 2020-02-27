@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Detect Orientation by DeviceMotion",
-    "description": "No description",
+    "description": "Detect device orientation even though it locked by \"orientation\" definition in app.json using DeviceMotion",
     "slug": "snack-dc115508-fab4-4be4-818a-5a03f89725bd",
     "privacy": "public",
     "sdkVersion": "36.0.0",
@@ -23,6 +23,11 @@
     },
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "githubUrl": "https://github.com/moshfeu/expo-detect-orientation-device-motion"
   }
 }
